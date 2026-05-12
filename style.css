@@ -1,3 +1,7 @@
+body{
+    margin: 2.5rem 2.5rem;
+}
+
 h1{
     text-align: center;
 }
@@ -8,10 +12,26 @@ h2{
 
 .contacts{
     display: flex;
-    flex: 1;
-    padding-inline:
+    justify-content: space-between;
+    text-align: left;
+}
+
+.educ_1{
+    display: flex;
+    gap: 10px;
+}
+    
+.educ_2{
+    display: flex;
+    gap: 10px;
+}
+
+.date{
+    margin-left: auto;
 }
 
 .comp{
-    display: flex;
+    display: inline-flex;
+    flex-direction:row ;
+    gap: 1rem;
 }
